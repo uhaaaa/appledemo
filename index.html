@@ -61,6 +61,17 @@
             background-color: black;
         }
 
+        .bg {            
+            background-image: url('img/pic.jpg') !important;
+            background-size: cover;
+            padding-bottom: 20px;
+        }
+        .bg { color: #fff; font-size: 22px;}
+        .bgh3 {font-size: 38px !important; font-weight: bold;}
+
+        .bg1, .bg2, .bg3, .bg4, .bg5, .bg6 {padding: 30px;}
+        .bg1>p, .bg2>p, .bg3>p, .bg4>p, .bg5>p, .bg6>P {color: #505050; font-weight: bold; font-size: 20px;}
+
         .bg1{            
             background-image: url('img/pic04.jpg') !important;
             background-size: cover;
@@ -87,6 +98,9 @@
         }
         .pc-img{display: block !important;}
         .mobile-img{ display: none !important;}
+
+        .footerList { list-style: none; padding: 0; margin: 0;}
+        .fLh4 {color: #ddd; font-size: 22px;}
         
         #pc-footer { display: block !important;}
         #accordion { display: none !important;}
@@ -182,9 +196,9 @@
         </a>
       </div>
     <!-- Carousel-->
-    <div class="container-fluid text-center">
+    <div class="container-fluid text-center bg">
         <div class="container container-padding">
-            <h3>Unleashed</h3>
+            <h3 class="bgh3">Unleashed</h3>
             <p>Watch the Apple Event tomorrow a 10 a.m.PDT</p>
             <p>learn more...</p>
         </div>
@@ -203,32 +217,14 @@
     <div id="Store" class="container text-center container-padding">
         <h3>Store</h3>
         <div class="row">
-            <div class="col-sm-6 bg1" style="padding-bottom:100px;">
+            <div class="col-sm-6 bg1">
                 <p>New</p>
                 <p>Apple Watch</p>
                 <p>Series7</p>
                 <p>Full sreen ahead</p>
                 <p>Learn more > Buy ></p>
             </div>
-            <div class="col-sm-6 bg2" style="padding-bottom:100px;">
-                <p>New</p>
-                <p>Apple Watch</p>
-                <p>Series7</p>
-                <p>Full sreen ahead</p>
-                <p>Learn more > Buy ></p>
-            </div>
-        </div>
-    </div>
-    <div class="container text-center container-padding">
-        <div class="row">
-            <div class="col-sm-6 bg3" style="padding-bottom:100px;">
-                <p>New</p>
-                <p>Apple Watch</p>
-                <p>Series7</p>
-                <p>Full sreen ahead</p>
-                <p>Learn more > Buy ></p>
-            </div>
-            <div class="col-sm-6 bg4" style="padding-bottom:100px;">
+            <div class="col-sm-6 bg2">
                 <p>New</p>
                 <p>Apple Watch</p>
                 <p>Series7</p>
@@ -239,14 +235,32 @@
     </div>
     <div class="container text-center container-padding">
         <div class="row">
-            <div class="col-sm-6 bg5" style="padding-bottom:100px;">
+            <div class="col-sm-6 bg3">
                 <p>New</p>
                 <p>Apple Watch</p>
                 <p>Series7</p>
                 <p>Full sreen ahead</p>
                 <p>Learn more > Buy ></p>
             </div>
-            <div class="col-sm-6 bg6" style="padding-bottom:100px;">
+            <div class="col-sm-6 bg4">
+                <p>New</p>
+                <p>Apple Watch</p>
+                <p>Series7</p>
+                <p>Full sreen ahead</p>
+                <p>Learn more > Buy ></p>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center container-padding">
+        <div class="row">
+            <div class="col-sm-6 bg5">
+                <p>New</p>
+                <p>Apple Watch</p>
+                <p>Series7</p>
+                <p>Full sreen ahead</p>
+                <p>Learn more > Buy ></p>
+            </div>
+            <div class="col-sm-6 bg6">
                 <p>New</p>
                 <p>Apple Watch</p>
                 <p>Series7</p>
@@ -293,76 +307,79 @@
     <div class="container container-padding" id="pc-footer">
         <div class="row">
             <div class="col-sm-3">
-                Shop and Learn<br>
-                Mac<br>
-                iPad<br>
-                iPhone<br>
-                Watch<br>
-                TV<br>
-                Music<br>
-                AirPods<br>
-                HomePod<br>
-                iPod touch<br>
-                AirTag<br>
-                Accessories<br>
-                Gift Cards<br>
+                <h4 class="fLh4">Shop and Learn</h4>
+                <ul class="footerList">
+                  <li>Mac</li>
+                  <li>iPad</li>
+                  <li>iPhone</li>
+                  <li>Watch</li>
+                  <li>TV</li>
+                  <li>Music</li>
+                  <li>AirPods</li>
+                  <li>HomePod</li>
+                  <li>iPod touch</li>
+                  <li>AirTag</li>
+                  <li>Accessories</li>
+                </ul>
             </div>
             <div class="col-sm-3">
-                Services<br>
-                Apple Music<br>
-                Apple TV+<br>
-                Apple Fitness+<br>
-                Apple News+<br>
-                Apple Arcade<br>
-                iCloud<br>
-                Apple One<br>
-                Apple Card<br>
-                Apple Books<br>
-                Apple Podcasts<br>
-                App Store<br>
-                Account<br>
-                Manage Your Apple ID<br>
-                Apple Store Account<br>
-                iCloud.com<br>
-
+                <h4 class="fLh4">Services</h4>
+                <ul class="footerList">
+                  <li>Apple Music</li>
+                  <li>Apple TV+</li>
+                  <li>Apple Fitness+</li>
+                  <li>Apple News+</li>
+                  <li>Apple Arcade</li>
+                  <li>Apple One</li>
+                  <li>Apple Card</li>
+                  <li>Apple Books</li>
+                  <li>Apple Podcasts</li>
+                  <li>App Store</li>
+                  <li>Account</li>
+                  <li>Manage Your Apple ID</li>
+                  <li>Apple Store Account</li>
+                  <li>iCloud.com</li>
+                </ul>
             </div>
             <div class="col-sm-3">
-                Apple Store<br>
-                Find a Store<br>
-                Shop Online<br>
-                Genius Bar<br>
-                Today at Apple<br>
-                Apple Camp<br>
-                Apple Store App<br>
-                Refurbished and Clearance<br>
-                Financing<br>
-                Apple Trade In<br>
-                Order Status<br>
-                Shopping Help<br>
+              <h4 class="fLh4">Apple Store</h4>
+                <ul class="footerList">
+                  <li>Shop Online</li>
+                  <li>Genius Bar</li>
+                  <li>Today at Apple</li>
+                  <li>Apple Camp</li>
+                  <li>Apple Store App</li>
+                  <li>Refurbished and Clearance</li>
+                  <li>Financing</li>
+                  <li>Apple Trade In</li>
+                  <li>Order Status</li>
+                  <li>Shopping Help</li>
+                </ul>
             </div>
             <div class="col-sm-3">
-                Apple Values<br>
-                Accessibility<br>
-                Education<br>
-                Environment<br>
-                Inclusion and Diversity<br>
-                Privacy<br>
-                Racial Equity and Justice<br>
-                Supplier Responsibility<br>
-                About Apple<br>
-                Newsroom<br>
-                Apple Leadership<br>
-                Career Opportunities<br>
-                Investors<br>
-                Ethics & Compliance<br>
-                Events<br>
-                Contact Apple<br>
+              <h4 class="fLh4">Apple Values</h4>
+              <ul class="footerList">
+                <li>Accessibility</li>
+                <li>Education</li>
+                <li>Environment</li>
+                <li>Inclusion and Diversity</li>
+                <li>Privacy</li>
+                <li>Racial Equity and Justice</li>
+                <li>Supplier Responsibility</li>
+                <li>About Apple</li>
+                <li>Newsroom</li>
+                <li>Apple Leadership</li>
+                <li>Career Opportunities</li>
+                <li>Investors</li>
+                <li>Ethics & Compliance</li>
+                <li>Events</li>
+              </ul>
             </div>
+          </div>
         </div>
-    </div>
-    </div>
-    <!--desktop-->
-    <!--mobile --------------------------------------------------------------------------------------------->
+      </div>
+      <!--desktop-->
+      <!--mobile--------------------------------------------------------------------------------------->
     <div class="panel-group" id="accordion">
         <div class="panel panel-default">
           <div class="panel-heading">
